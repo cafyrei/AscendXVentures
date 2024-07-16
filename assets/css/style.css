@@ -1,0 +1,176 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+h2 {
+  color: white;
+}
+
+/* Side Bar */
+
+.navbar-vertical {
+  height: auto;
+  position: fixed;
+  background-color: #f8f9fa;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 11rem;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+.nav-link img {
+  display: block;
+  margin: 10px auto;
+  text-align: center;
+}
+.nav a:hover {
+  background-color: #333;
+}
+
+/* Navigation Bar */
+.navbar {
+  font-family: Arial, Helvetica, sans-serif;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.d-inline-block {
+  margin-right: 15px;
+}
+
+.navbar-brand-h1 {
+  font-size: 15rem;
+}
+
+.dropdown-item {
+  padding: 10px;
+}
+
+.sidebar a {
+  padding: 15px 20px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #333;
+  display: block;
+}
+.sidebar a:hover {
+  background-color: #ddd;
+}
+
+/* Main */
+
+.col-md-6 img {
+  width: 320px;
+  margin-top: 105px;
+}
+
+.col-md-6 p {
+  margin-top: 100px;
+}
+
+.img-vision img {
+  width: 180px;
+  margin-top: 5px;
+}
+
+.img-mission img {
+  width: 137px;
+  margin-top: 0px;
+}
+
+.img-goal img {
+  width: 80px;
+  margin-top: 5px;
+}
+
+/* Footer */
+
+.footer-container {
+  font-family: Arial, Helvetica, sans-serif;
+  box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.text-container small + small {
+  margin-top: -0.5rem;
+}
+
+.text-container {
+  line-height: 1.2;
+}
+
+.footer-container {
+  border-top-right-radius: 50px;
+  border-top-left-radius: 50px;
+}
+
+.zoom:hover {
+  transform: scale(1.1);
+  transition: transform 0.5s ease;
+}
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 2s forwards;
+}
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+.zoom-box {
+  border: 2px solid #ccc;
+  padding: 15px;
+  border-radius: 10px;
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
+  margin: 10px;
+  background-color: #f9f9f9;
+}
+.zoom-box:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-color: #333;
+}
+
+body {
+  font-size: 16px;
+}
+h1 {
+  font-size: 2.5rem;
+}
+h2 {
+  font-size: 2rem;
+}
+p {
+  font-size: 1.1rem;
+}
+
+.background-clip {
+  position: fixed;
+  object-fit: cover;
+  right: 0;
+  left: 0;
+  z-index: -1;
+}
+
+@media (min-aspect-ratio: 16/9) {
+  .background-clip {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-aspect-ratio: 16/9) {
+  .background-clip {
+    width: auto;
+    height: 100%;
+  }
+}
